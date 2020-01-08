@@ -49,7 +49,6 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView45"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:gravity="center_vertical"
@@ -118,7 +117,6 @@
                 app:srcCompat="@drawable/ic_github_circle" />
 
             <TextView
-                android:id="@+id/textView49"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:drawableStart="@drawable/ic_android"
@@ -164,7 +162,6 @@
                 app:srcCompat="@drawable/ic_github_circle" />
 
             <TextView
-                android:id="@+id/textView51"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:drawableStart="@drawable/ic_android"
@@ -210,7 +207,6 @@
                 app:srcCompat="@drawable/ic_github_circle" />
 
             <TextView
-                android:id="@+id/textView52"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:drawableStart="@drawable/ic_apple_ios"
@@ -270,7 +266,6 @@
                 app:srcCompat="@drawable/ic_behance" />
 
             <TextView
-                android:id="@+id/textView54"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:gravity="center_vertical"

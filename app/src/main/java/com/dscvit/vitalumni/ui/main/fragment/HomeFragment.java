@@ -85,18 +85,18 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         homeRecyclerView.setAdapter(new EventAdapter(eventList));
 
-        FirebaseDatabase.getInstance().getReference("youtubeLiveUrl").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                liveUrl = dataSnapshot.getValue().toString();
-            }
+//        FirebaseDatabase.getInstance().getReference("youtubeLiveUrl").addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                liveUrl = dataSnapshot.getValue().toString();
+//            }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError databaseError) {
+//
+//            }
+//        });
 
-            }
-        });
-        
         return view;
     }
 
@@ -113,7 +113,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         if (!MainActivity.isMenuActive) {
             switch (view.getId()) {
-                case R.id.layout_live_stream :
+                case R.id.layout_live_stream:
                     if (liveUrl.isEmpty()) {
                         Snackbar.make(parentLayout, "Not streaming yet", Snackbar.LENGTH_SHORT).show();
                     } else {
@@ -126,7 +126,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 case R.id.text_button_home_youtube:
                     watchYoutubeVideo(staticUrl);
                     break;
-                default: break;
+                default:
+                    break;
             }
         }
     }
