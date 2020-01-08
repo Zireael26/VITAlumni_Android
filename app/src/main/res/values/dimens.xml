@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="theme_corner_radius">9dp</dimen>
+    <dimen name="theme_height">100dp</dimen>
+</resources>

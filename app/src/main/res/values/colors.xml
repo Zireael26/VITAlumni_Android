@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5EB3FC</color>
+    <color name="colorPrimaryDark">#3B8ED5</color>
+    <color name="colorAccent">#FFF</color>
+
+    <color name="colorMenuBg">#33000000</color>
+
+    <color name="colorThemeBlue1">#5EB3FC</color>
+    <color name="colorThemeBlue2">#3B8ED5</color>
+
+    <color name="colorThemeRed1">#D44836</color>
+    <color name="colorThemeRed2">#EC5745</color>
+
+    <color name="spacer_grey">#e0e0e0</color>
+
+    <color name="chipDefaultColor">#0000001f</color>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205137720814",
+    "firebase_url": "https://vitalumni-7937f.firebaseio.com",
+    "project_id": "vitalumni-7937f",
+    "storage_bucket": "vitalumni-7937f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205137720814:android:131c8d93725ce4b8",
+        "android_client_info": {
+          "package_name": "com.dscvit.vitalumni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205137720814-4m4fn5ddbpaj4js63llju3iajem38li6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dscvit.vitalumni",
+            "certificate_hash": "15f1b15ff32abfbde058df2505a3e0f278205a6e"
+          }
+        },
+        {
+          "client_id": "205137720814-kpddrr2g7hkj3e0jbhn35gake8215r5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhXv52M3aRxLBVzf_ENw9WJFskk_qCpfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205137720814-kpddrr2g7hkj3e0jbhn35gake8215r5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
